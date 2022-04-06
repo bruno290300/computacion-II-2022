@@ -18,9 +18,9 @@ def child():
             print(f'{os.getpid()} - {os.getppid()}: {sumapares}')
             os._exit(0)
 
-
-modo_verboso = False
+modo_verboso=True
 
 
 for i in range(args.num):
     child()
+    

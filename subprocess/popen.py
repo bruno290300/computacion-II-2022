@@ -1,6 +1,6 @@
 import subprocess as sp 
-import sys
 import getopt
+import sys
 import datetime as dt
 
 opt,arg = getopt.getopt(sys.argv[:1], 'c:f:l:')

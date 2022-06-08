@@ -1,6 +1,6 @@
-from multiprocessing import Process,Pipe,Queue
+from multiprocessing import Process, Pipe, Queue
 import multiprocessing
-import os,time,sys,codecs
+import os, time, sys, codecs
 
 
 def hijo1(p,q):

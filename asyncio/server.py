@@ -28,7 +28,7 @@ async def main(PORT):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-p","--port", type=int,required=True,help="Nª de puerto del servidor")
+    parser.add_argument("-p","--port", type=int,required=True,help="Nª de puerto del servidor:")
     args = parser.parse_args()
     HOST, PORT = "localhost", args.port
     print("Server iniciado en: ",HOST,PORT)

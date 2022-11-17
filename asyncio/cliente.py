@@ -17,7 +17,7 @@ def cliente(h,p):
 
     host = h
     port = p
-    print("Connecting..")
+    print("Connecting.....")
     time.sleep(2)
     s.connect((host,port))
     print("Handshake terminado")
